@@ -1,4 +1,4 @@
-type: consumes
+type: GenericSmelter
 name: Diamond Press
 description: Uses coal and pyratite to make diamonds.
 destructible: true
@@ -7,15 +7,43 @@ rotate: true
 breakable: true
 size: 2
 
-items: {
-  items: [
-    coal/75
-    pyratite/25
-  ]
-  booster: true
-  optional: true
+outputItem: {
+  item: diamond
+  amount: 1
 }
-liquid: {
-  cryofluid/1.0
+
+consumes: {
+  items: {
+    items: [
+      coal/75
+      pyratite/25
+    ]
+  }
+  
+  liquid: {
+    cryofluid/1.0
+  }
+  
+  power: 200
 }
-power: 600
+
+ 
+
+
+
+
+
+requirements: [
+  {
+    item: silicon
+    amount: 50
+  }
+  {
+    item: graphite
+    amount: 35
+  }
+]
+
+
+
+
