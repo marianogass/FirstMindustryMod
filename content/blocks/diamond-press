@@ -1,0 +1,20 @@
+type: consumes
+name: Diamond Press
+description: Uses coal and pyratite to make diamonds.
+destructible: true
+solid: true
+rotate: true
+breakable: true
+size: 2
+
+items: {
+  items: [
+    coal/20
+    pyratite/20
+  ]
+  booster: true
+  optional: true
+}
+liquid: {
+  cryofluid/1.0
+}
