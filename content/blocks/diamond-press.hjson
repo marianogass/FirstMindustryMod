@@ -9,8 +9,8 @@ size: 2
 
 items: {
   items: [
-    coal/20
-    pyratite/20
+    coal/75
+    pyratite/25
   ]
   booster: true
   optional: true
@@ -18,3 +18,4 @@ items: {
 liquid: {
   cryofluid/1.0
 }
+power: 600
