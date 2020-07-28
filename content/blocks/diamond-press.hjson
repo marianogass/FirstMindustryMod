@@ -33,3 +33,4 @@ outputItem: {
 }
 
 idleSound: respawning
+updateEffect: steam
