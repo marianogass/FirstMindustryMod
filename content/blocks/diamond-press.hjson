@@ -34,4 +34,5 @@ outputItem: {
 
 idleSound: respawning
 idleSoundVolume: 0.3
-updateEffect: steam
+craftTime: 70
+updateEffect: smeltsmoke
