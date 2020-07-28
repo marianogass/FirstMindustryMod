@@ -11,5 +11,5 @@ requirements: [
 ]
 
 category: distribution
-speed: 10
+speed: 0.24
 research: titanium-conveyor
