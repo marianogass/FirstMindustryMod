@@ -21,7 +21,7 @@ consumes: {
 
   liquid: {
     liquid: cryofluid
-    amount: 1
+    amount: .05
   }
 
   power: 150
