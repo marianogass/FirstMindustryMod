@@ -31,3 +31,5 @@ outputItem: {
   item: diamond
   amount: 2
 }
+
+idleSound: respawning
