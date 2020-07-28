@@ -1,0 +1,38 @@
+{"breakable":true,"consumes":{"items":{"items":[{"amount":75,"item":"coal"},{"amount":25,"item":"pyratite"}]},"liquid":{"amount":1,"liquid":"cryofluid"},"power":200},"description":"Uses coal and pyratite to make diamonds.","destructible":true,"name":"Diamond Press","outputItem":{"amount":1,"item":"diamond"},"requirements":[{"amount":50,"item":"silicon"},{"amount":35,"item":"graphite"}],"rotate":true,"size":2,"solid":true,"category":"crafting","type":"GenericSmelter"}
+{
+  "breakable": true,
+  "consumes": {
+    "items": {
+      "items": [
+        coal/75
+        pyratite/25
+      ]
+    },
+    "liquid": {
+      cryofluid/1.0
+    },
+    "power": 200
+  },
+  "description": "Uses coal and pyratite to make diamonds.",
+  "destructible": true,
+  "name": "Diamond Press",
+  "outputItem": {
+    "amount": 1,
+    "item": "diamond"
+  },
+  "requirements": [
+    {
+      "amount": 50,
+      "item": "silicon"
+    },
+    {
+      "amount": 35,
+      "item": "graphite"
+    }
+  ],
+  "rotate": true,
+  "size": 2,
+  "solid": true,
+  "category": "crafting",
+  "type": "GenericSmelter"
+}
