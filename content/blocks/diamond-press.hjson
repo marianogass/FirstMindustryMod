@@ -5,7 +5,7 @@
   category: "crafting"
   type: "GenericSmelter"
   "breakable": true
-  item-capacity: 100
+  itemCapacity: 100
   "consumes": {
     "items": {
       "items": [
