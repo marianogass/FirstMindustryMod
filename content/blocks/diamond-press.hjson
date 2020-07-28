@@ -33,4 +33,5 @@ outputItem: {
 }
 
 idleSound: respawning
-updateEffect: steam
+idleSoundVolume: 0.3
+updateEffect: smeltsmoke
