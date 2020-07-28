@@ -1,0 +1,14 @@
+type: Conveyor
+name: Diamond Conveyor
+description: A fast conveyor made with diamonds.
+
+requirements: [
+  titanium/3
+  graphite/3
+  lead/3
+  diamond/3
+]
+
+category: distribution
+speed: 15
+research: titanium-conveyor
