@@ -1,40 +1,31 @@
-{
-  rotate: true
-  size: 2
-  solid: true
-  category: "crafting"
-  type: "GenericSmelter"
-  "breakable": true
-  itemCapacity: 100
-  "consumes": {
-    "items": {
-      "items": [
-        coal/75
-        pyratite/25
-      ]
-    }
-    "liquid": {
-      "liquid": "cryofluid",
-      "amount": 1
-    }
-    "power": 200
-  }
-  "description": "Uses coal and pyratite to make diamonds."
-  "destructible": true
-  "name": "Diamond Press"
-  "outputItem": {
-    "amount": 1
-    "item": "diamond"
-  }
-  "requirements": [
-    {
-      "amount": 50
-      "item": "silicon"
-    }
-    {
-      "amount": 35
-      "item": "graphite"
-    }
-  ]
+type: GenericSmelter
+name: Diamond Press
+description: Uses coal and pyratite to make diamonds.
+category: crafting
+size: 2
 
+requirements: {
+  silicon/50
+  graphite/35
+}
+
+consumes: {
+  items: {
+    items: [
+      coal/50
+      pyratite/15
+    ]
+  }
+
+  liquid: {
+    liquid: cryofluid
+    amount: 1
+  }
+
+  power: 150
+}
+
+outputItem: {
+  item: diamond
+  amount: 2
 }
