@@ -1,7 +1,7 @@
 type: Conveyor
 name: Diamond Conveyor
-description: A fast conveyor made with diamonds.
-breakable: false
+description: A fast conveyor made with diamonds. Virtually unbreakable.
+health: 1500
 
 requirements: [
   titanium/3
@@ -11,5 +11,5 @@ requirements: [
 ]
 
 category: distribution
-speed: 0.12
+speed: 0.08
 research: titanium-conveyor
