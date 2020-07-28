@@ -1,6 +1,7 @@
 type: Conveyor
 name: Diamond Conveyor
 description: A fast conveyor made with diamonds.
+breakable: false
 
 requirements: [
   titanium/3
