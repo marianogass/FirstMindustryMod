@@ -1,10 +1,10 @@
 {
-  "rotate": true
-  "size": 2
-  "solid": true
-  "category": "crafting"
-  "type": "GenericSmelter
-  "breakable": true,
+  rotate: true
+  size: 2
+  solid: true
+  category: "crafting"
+  type: "GenericSmelter"
+  "breakable": true
   "consumes": {
     "items": {
       "items": [
