@@ -1,0 +1,5 @@
+type: Block
+name: Hydraulic Press
+description: Uses a material and hydraulic fluid to create intense pressure, changing the state of the material to a liquid.
+size: 2
+configurable: true
