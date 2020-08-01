@@ -1,0 +1,21 @@
+name: Diamond Drill
+description: An amazingly fast drill that can mine anything.
+type: Drill
+size: 3
+tier: 2
+drillTime: 250
+consumes: {
+  power: 3
+  liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  diamond/50
+  silicon/20
+  graphite/25
+]
+category: production
+research: laser-drill
