@@ -16,6 +16,6 @@ requirements: [
   diamond/100
   silicon/75
   graphite/80
-}
+]
 category: production
 research: laser-drill
